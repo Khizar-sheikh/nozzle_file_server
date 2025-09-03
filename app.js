@@ -1,14 +1,39 @@
-import express from "express";
-import cors from "cors";
-import { MongoClient } from "mongodb";
+// api/index.js
+const express = require('express');
+const path = require('path');
+const { MongoClient } = require("mongodb");
 
 const app = express();
-app.use(cors());
-app.use(express.json({ limit: "5mb" }));
 
-console.log("🚀 Booting Express app...");
+// Serve static files from /public
+app.use(express.static(path.join(__dirname, '..', 'public')));
 
-// ===== MongoDB Setup =====
+// Home route - HTML
+app.get('/', (req, res) => {
+  res.type('html').send(`
+    <!doctype html>
+    <html>
+      <head>
+        <meta charset="utf-8"/>
+        <title>Express on Vercel</title>
+        <link rel="stylesheet" href="/style.css" />
+      </head>
+      <body>
+        <nav>
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/api-data">API Data</a>
+          <a href="/healthz">Health</a>
+        </nav>
+        <h1>Welcome to Express on Vercel 🚀</h1>
+        <p>This is a minimal example without a database or forms.</p>
+        <img src="/logo.png" alt="Logo" width="120" />
+      </body>
+    </html>
+  `);
+});
+
+
 const uri =
   "mongodb+srv://ssskhizarwaseem_db_user:QkJru84wmlLMKomn@cluster0.xbynqsk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
@@ -26,11 +51,6 @@ async function getDB() {
   return db;
 }
 
-// ---------- Routes ----------
-app.get("/", (req, res) => {
-  console.log("📥 GET /");
-  res.json({ message: "Hello from Express + MongoDB (Base64 Mode)!" });
-});
 
 // Get file content
 app.get("/json/:file", async (req, res) => {
@@ -85,13 +105,12 @@ app.post("/update/:file", async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 });
+// Health check
+app.get('/healthz', (req, res) => {
+  res.status(200).json({ status: 'ok', timestamp: new Date().toISOString() });
+});
 
-// ===== Local Dev Server =====
-if (process.env.NODE_ENV !== "production") {
-  const PORT = process.env.PORT || 4000;
-  app.listen(PORT, () => {
-    console.log(`✅ Local server running at http://localhost:${PORT}`);
-  });
-}
+// Local dev listener (ignored on Vercel)
+app.listen(3000, () => console.log('Server running on http://localhost:3000'));
 
-export default app;
+module.exports = app;
