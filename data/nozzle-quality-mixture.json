@@ -1,0 +1,452 @@
+[
+  {
+    "nozzle": "AI",
+    "mixtures": [
+      {
+        "mixture": "Roundup Ready PL with Xtendimax dicamba",
+        "tags": {
+          "MinVC": [
+            "015 4",
+            "015 5",
+            "015 6",
+            "025 4",
+            "025 5",
+            "025 6",
+            "03 4"
+          ],
+          "MinXC": [
+            "025 4",
+            "025 5"
+          ],
+          "MinUC": []
+        }
+      },
+      {
+        "mixture": "Glyphosate with/out 2,4-D",
+        "tags": {
+          "MinVC": [
+            "02 4",
+            "02 6",
+            "03 5",
+            "03 6",
+            "02 5"
+          ],
+          "MinXC": [
+            "02 4"
+          ],
+          "MinUC": []
+        }
+      }
+    ]
+  },
+  {
+    "nozzle": "AI3070",
+    "mixtures": [
+      {
+        "mixture": "Glyphosate with/out 2,4-D",
+        "tags": {
+          "MinVC": [
+            "02 3"
+          ],
+          "MinXC": [],
+          "MinUC": []
+        }
+      }
+    ]
+  },
+  {
+    "nozzle": "AITTJ60",
+    "mixtures": [
+      {
+        "mixture": "Glyphosate with/out 2,4-D",
+        "tags": {
+          "MinVC": [
+            "03 3",
+            "03 4"
+          ],
+          "MinXC": [],
+          "MinUC": []
+        }
+      }
+    ]
+  },
+  {
+    "nozzle": "AIXR",
+    "mixtures": [
+      {
+        "mixture": "Glyphosate with/out 2,4-D",
+        "tags": {
+          "MinVC": [
+            "02 3",
+            "03 3"
+          ],
+          "MinXC": [],
+          "MinUC": []
+        }
+      }
+    ]
+  },
+  {
+    "nozzle": "Albuz AVI",
+    "mixtures": [
+      {
+        "mixture": "Glyphosate with/out 2,4-D",
+        "tags": {
+          "MinVC": [],
+          "MinXC": [],
+          "MinUC": []
+        }
+      }
+    ]
+  },
+  {
+    "nozzle": "CFA",
+    "mixtures": [
+      {
+        "mixture": "Glyphosate with/out 2,4-D",
+        "tags": {
+          "MinVC": [
+            "025 3",
+            "03 3"
+          ],
+          "MinXC": [],
+          "MinUC": []
+        }
+      }
+    ]
+  },
+  {
+    "nozzle": "CFA Ultra",
+    "mixtures": [
+      {
+        "mixture": "Glyphosate with/out 2,4-D",
+        "tags": {
+          "MinVC": [],
+          "MinXC": [],
+          "MinUC": []
+        }
+      }
+    ]
+  },
+  {
+    "nozzle": "TFA Twin",
+    "mixtures": [
+      {
+        "mixture": "Glyphosate with/out 2,4-D",
+        "tags": {
+          "MinVC": [],
+          "MinXC": [],
+          "MinUC": []
+        }
+      }
+    ]
+  },
+  {
+    "nozzle": "AVI",
+    "mixtures": [
+      {
+        "mixture": "Glyphosate with/out 2,4-D",
+        "tags": {
+          "MinVC": [
+            "02 4",
+            "02 6"
+          ],
+          "MinXC": [],
+          "MinUC": []
+        }
+      },
+      {
+        "mixture": "Roundup Ready PL with Xtendimax dicamba",
+        "tags": {
+          "MinVC": [
+            "03 4"
+          ],
+          "MinXC": [],
+          "MinUC": []
+        }
+      }
+    ]
+  },
+  {
+    "nozzle": "Bubblejet",
+    "mixtures": [
+      {
+        "mixture": "Glyphosate with/out 2,4-D",
+        "tags": {
+          "MinVC": [
+            "025 3",
+            "03 3"
+          ],
+          "MinXC": [],
+          "MinUC": []
+        }
+      }
+    ]
+  },
+  {
+    "nozzle": "Guardian Air",
+    "mixtures": [
+      {
+        "mixture": "Glyphosate with/out 2,4-D",
+        "tags": {
+          "MinVC": [],
+          "MinXC": [],
+          "MinUC": []
+        }
+      },
+      {
+        "mixture": "Roundup Ready PL with Xtendimax dicamba",
+        "tags": {
+          "MinVC": [],
+          "MinXC": [],
+          "MinUC": []
+        }
+      }
+    ]
+  },
+  {
+    "nozzle": "ID",
+    "mixtures": [
+      {
+        "mixture": "Glyphosate with/out 2,4-D",
+        "tags": {
+          "MinVC": [
+            "025 4",
+            "025 5",
+            "03 4"
+          ],
+          "MinXC": [],
+          "MinUC": []
+        }
+      }
+    ]
+  },
+  {
+    "nozzle": "Injet",
+    "mixtures": [
+      {
+        "mixture": "Roundup Ready PL with Xtendimax dicamba",
+        "tags": {
+          "MinVC": [
+            "015 4",
+            "015 5",
+            "015 6"
+          ],
+          "MinXC": [],
+          "MinUC": []
+        }
+      },
+      {
+        "mixture": "Glyphosate with/out 2,4-D",
+        "tags": {
+          "MinVC": [
+            "02 4",
+            "02 6",
+            "025 4",
+            "025 5",
+            "025 6",
+            "03 4",
+            "03 5",
+            "03 6",
+            "02 5"
+          ],
+          "MinXC": [],
+          "MinUC": []
+        }
+      }
+    ]
+  },
+  {
+    "nozzle": "LD",
+    "mixtures": [
+      {
+        "mixture": "Glyphosate with/out 2,4-D",
+        "tags": {
+          "MinVC": [
+            "025 2"
+          ],
+          "MinXC": [],
+          "MinUC": []
+        }
+      }
+    ]
+  },
+  {
+    "nozzle": "MD",
+    "mixtures": [
+      {
+        "mixture": "Roundup Ready PL with Xtendimax dicamba",
+        "tags": {
+          "MinVC": [],
+          "MinXC": [],
+          "MinUC": []
+        }
+      },
+      {
+        "mixture": "Glyphosate with/out 2,4-D",
+        "tags": {
+          "MinVC": [
+            "02 4"
+          ],
+          "MinXC": [],
+          "MinUC": []
+        }
+      }
+    ]
+  },
+  {
+    "nozzle": "MD Duo",
+    "mixtures": [
+      {
+        "mixture": "Glyphosate with/out 2,4-D",
+        "tags": {
+          "MinVC": [],
+          "MinXC": [],
+          "MinUC": []
+        }
+      }
+    ]
+  },
+  {
+    "nozzle": "TD XLD",
+    "mixtures": [
+      {
+        "mixture": "Glyphosate with/out 2,4-D",
+        "tags": {
+          "MinVC": [],
+          "MinXC": [],
+          "MinUC": []
+        }
+      }
+    ]
+  },
+  {
+    "nozzle": "TD",
+    "mixtures": [
+      {
+        "mixture": "Glyphosate with/out 2,4-D",
+        "tags": {
+          "MinVC": [],
+          "MinXC": [],
+          "MinUC": []
+        }
+      }
+    ]
+  },
+  {
+    "nozzle": "TT",
+    "mixtures": [
+      {
+        "mixture": "Glyphosate with/out 2,4-D",
+        "tags": {
+          "MinVC": [],
+          "MinXC": [],
+          "MinUC": []
+        }
+      }
+    ]
+  },
+  {
+    "nozzle": "TTI",
+    "mixtures": [
+      {
+        "mixture": "Roundup Ready PL with Xtendimax dicamba",
+        "tags": {
+          "MinVC": [
+            "015 4",
+            "015 5",
+            "015 6"
+          ],
+          "MinXC": [
+            "015 4",
+            "015 5",
+            "015 6"
+          ],
+          "MinUC": [
+            "015 4"
+          ]
+        }
+      },
+      {
+        "mixture": "Glyphosate with/out 2,4-D",
+        "tags": {
+          "MinVC": [
+            "02 3",
+            "02 4",
+            "02 6",
+            "025 4",
+            "025 5",
+            "025 6",
+            "03 4",
+            "03 5",
+            "03 6",
+            "02 5"
+          ],
+          "MinXC": [
+            "02 3",
+            "02 4",
+            "02 6",
+            "025 4",
+            "025 5",
+            "025 6",
+            "03 4",
+            "03 5",
+            "03 6",
+            "02 5"
+          ],
+          "MinUC": [
+            "02 3",
+            "02 4",
+            "025 4",
+            "03 4",
+            "03 5"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "nozzle": "TTI60",
+    "mixtures": [
+      {
+        "mixture": "Glyphosate with/out 2,4-D",
+        "tags": {
+          "MinVC": [
+            "02 4",
+            "02 6",
+            "025 4",
+            "025 6",
+            "03 6"
+          ],
+          "MinXC": [],
+          "MinUC": []
+        }
+      },
+      {
+        "mixture": "Roundup Ready PL with Xtendimax dicamba",
+        "tags": {
+          "MinVC": [
+            "03 4"
+          ],
+          "MinXC": [
+            "03 4"
+          ],
+          "MinUC": []
+        }
+      }
+    ]
+  },
+  {
+    "nozzle": "TTJ60",
+    "mixtures": [
+      {
+        "mixture": "Glyphosate with/out 2,4-D",
+        "tags": {
+          "MinVC": [],
+          "MinXC": [],
+          "MinUC": []
+        }
+      }
+    ]
+  }
+]

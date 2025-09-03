@@ -1,0 +1,882 @@
+[
+  {
+    "nozzle": "AI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "015 4",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Roundup Ready PL with Xtendimax dicamba"
+  },
+  {
+    "nozzle": "TTI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "TRUE",
+    "at-least-uc": "TRUE",
+    "tags-for-min-vc": "015 4",
+    "tags-for-min-xc": "015 4",
+    "tags-for-min-uc": "015 4",
+    "mixture": "Roundup Ready PL with Xtendimax dicamba"
+  },
+  {
+    "nozzle": "Injet",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "015 4",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Roundup Ready PL with Xtendimax dicamba"
+  },
+  {
+    "nozzle": "AI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "015 5",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Roundup Ready PL with Xtendimax dicamba"
+  },
+  {
+    "nozzle": "TTI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "TRUE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "015 5",
+    "tags-for-min-xc": "015 5",
+    "tags-for-min-uc": "",
+    "mixture": "Roundup Ready PL with Xtendimax dicamba"
+  },
+  {
+    "nozzle": "Injet",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "015 5",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Roundup Ready PL with Xtendimax dicamba"
+  },
+  {
+    "nozzle": "AI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "015 6",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Roundup Ready PL with Xtendimax dicamba"
+  },
+  {
+    "nozzle": "TTI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "TRUE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "015 6",
+    "tags-for-min-xc": "015 6",
+    "tags-for-min-uc": "",
+    "mixture": "Roundup Ready PL with Xtendimax dicamba"
+  },
+  {
+    "nozzle": "Injet",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "015 6",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Roundup Ready PL with Xtendimax dicamba"
+  },
+  {
+    "nozzle": "AI3070",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "02 3",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "AIXR",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "02 3",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TTI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "TRUE",
+    "at-least-uc": "TRUE",
+    "tags-for-min-vc": "02 3",
+    "tags-for-min-xc": "02 3",
+    "tags-for-min-uc": "02 3",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "AI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "TRUE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "02 4",
+    "tags-for-min-xc": "02 4",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "CFA Ultra",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "02 4",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TFA Twin",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "02 4",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "AVI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "02 4",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "Injet",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "02 4",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TD XLD",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "TRUE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "02 4",
+    "tags-for-min-xc": "02 4",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TTI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "TRUE",
+    "at-least-uc": "TRUE",
+    "tags-for-min-vc": "02 4",
+    "tags-for-min-xc": "02 4",
+    "tags-for-min-uc": "02 4",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TTI60",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "02 4",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "MD",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "02 4",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "AI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "02 5",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "AVI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "02 5",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "Injet",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "02 5",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TD XLD",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "TRUE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "02 5",
+    "tags-for-min-xc": "02 5",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TTI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "TRUE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "02 5",
+    "tags-for-min-xc": "02 5",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "AIXR",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "02 5",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "AI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "02 6",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "Injet",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "02 6",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TD XLD",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "02 6",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TTI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "TRUE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "02 6",
+    "tags-for-min-xc": "02 6",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TTI60",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "02 6",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "AVI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "02 6",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "LD",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "025 2",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "CFA",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "025 3",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "Bubblejet",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "025 3",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "Guardian Air",
+    "at-least-vc": "FALSE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "025 3",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TTJ60",
+    "at-least-vc": "FALSE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "025 3",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "MD Duo",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "025 3",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "AI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "TRUE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "025 4",
+    "tags-for-min-xc": "025 4",
+    "tags-for-min-uc": "",
+    "mixture": "Roundup Ready PL with Xtendimax dicamba"
+  },
+  {
+    "nozzle": "AI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "TRUE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "025 4",
+    "tags-for-min-xc": "025 4",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "AITTJ60",
+    "at-least-vc": "FALSE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "025 4",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "Injet",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "025 4",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "ID",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "025 4",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TD XLD",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "TRUE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "025 4",
+    "tags-for-min-xc": "025 4",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TTI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "TRUE",
+    "at-least-uc": "TRUE",
+    "tags-for-min-vc": "025 4",
+    "tags-for-min-xc": "025 4",
+    "tags-for-min-uc": "025 4",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TTI60",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "025 4",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "MD Duo",
+    "at-least-vc": "FALSE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "025 4",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "AI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "TRUE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "025 5",
+    "tags-for-min-xc": "025 5",
+    "tags-for-min-uc": "",
+    "mixture": "Roundup Ready PL with Xtendimax dicamba"
+  },
+  {
+    "nozzle": "Injet",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "025 5",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "ID",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "025 5",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TD XLD",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "TRUE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "025 5",
+    "tags-for-min-xc": "025 5",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TTI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "TRUE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "025 5",
+    "tags-for-min-xc": "025 5",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "AI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "025 6",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Roundup Ready PL with Xtendimax dicamba"
+  },
+  {
+    "nozzle": "Injet",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "025 6",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TD XLD",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "025 6",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TTI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "TRUE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "025 6",
+    "tags-for-min-xc": "025 6",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TTI60",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "025 6",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "AITTJ60",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "03 3",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "AIXR",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "03 3",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "CFA",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "03 3",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "Bubblejet",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "03 3",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "Guardian Air",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "03 3",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "AI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "03 4",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Roundup Ready PL with Xtendimax dicamba"
+  },
+  {
+    "nozzle": "AVI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "03 4",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Roundup Ready PL with Xtendimax dicamba"
+  },
+  {
+    "nozzle": "AITTJ60",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "03 4",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "CFA Ultra",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "03 4",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TFA Twin",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "TRUE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "03 4",
+    "tags-for-min-xc": "03 4",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "Injet",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "03 4",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "ID",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "03 4",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TD XLD",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "TRUE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "03 4",
+    "tags-for-min-xc": "03 4",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TTI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "TRUE",
+    "at-least-uc": "TRUE",
+    "tags-for-min-vc": "03 4",
+    "tags-for-min-xc": "03 4",
+    "tags-for-min-uc": "03 4",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TTI60",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "TRUE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "03 4",
+    "tags-for-min-xc": "03 4",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "AI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "03 5",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TFA Twin",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "03 5",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "Injet",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "03 5",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TD XLD",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "03 5",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TTI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "TRUE",
+    "at-least-uc": "TRUE",
+    "tags-for-min-vc": "03 5",
+    "tags-for-min-xc": "03 5",
+    "tags-for-min-uc": "03 5",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "AI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "03 6",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "CFA Ultra",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "03 6",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TFA Twin",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "03 6",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "Injet",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "03 6",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TD XLD",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "TRUE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "03 6",
+    "tags-for-min-xc": "03 6",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TTI",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "TRUE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "03 6",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TTI60",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "03 6",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "TT",
+    "at-least-vc": "FALSE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "04 3",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Glyphosate with/out 2"
+  },
+  {
+    "nozzle": "AI",
+    "at-least-vc": "FALSE",
+    "at-least-xc": "FALSE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "104 4",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Roundup Ready PL with Xtendimax dicamba"
+  },
+  {
+    "nozzle": "TTI60",
+    "at-least-vc": "TRUE",
+    "at-least-xc": "TRUE",
+    "at-least-uc": "FALSE",
+    "tags-for-min-vc": "03 4",
+    "tags-for-min-xc": "",
+    "tags-for-min-uc": "",
+    "mixture": "Roundup Ready PL with Xtendimax dicamba"
+  }
+]
