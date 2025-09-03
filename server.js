@@ -13,6 +13,10 @@ app.use(express.json());
 // ✅ Serve JSON files at /json/
 app.use("/json", express.static(path.join(process.cwd(), "data")));
 
+app.get("/", (req, res) => {
+  res.send("✅ Server is running. Access JSON files at /json/<filename>.json");
+});
+
 // ✅ Update a JSON file
 app.post("/update/:file", (req, res) => {
   const fileName = req.params.file;

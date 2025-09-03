@@ -1,14 +1,15 @@
 {
   "name": "nozzle_file_server",
   "version": "1.0.0",
+  "description": "A simple Express server to serve and update JSON files",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "Simple JSON hosting server",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^5.1.0"
