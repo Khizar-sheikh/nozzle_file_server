@@ -1,19 +1,14 @@
 {
-  "name": "nozzle_file_server",
+  "name": "nozzle-file-server",
   "version": "1.0.0",
-  "description": "A simple Express server to serve and update JSON files",
   "type": "module",
-  "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "@vendia/serverless-express": "^4.10.4",
     "cors": "^2.8.5",
-    "express": "^5.1.0",
-    "mongodb": "^6.19.0"
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0"
   }
 }
