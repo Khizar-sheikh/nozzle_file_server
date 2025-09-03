@@ -14,7 +14,7 @@ app.use(express.json());
 app.use("/json", express.static(path.join(process.cwd(), "data")));
 
 app.get("/", (req, res) => {
-  res.send("✅ Server is running. Access JSON files at /json/<filename>.json");
+  res.json({ message: "Hello from Express on Vercel!" });
 });
 
 // ✅ Update a JSON file
