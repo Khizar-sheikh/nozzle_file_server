@@ -5,8 +5,6 @@ const { MongoClient } = require("mongodb");
 
 const app = express();
 
-// Serve static files from /public
-app.use(express.static(path.join(__dirname, '..', 'public')));
 
 // Home route - HTML
 app.get('/', (req, res) => {
