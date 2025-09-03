@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "dev": "node app.js"
+    "dev": "NODE_ENV=development node app.js"
   },
   "dependencies": {
     "@vendia/serverless-express": "^4.10.4",
