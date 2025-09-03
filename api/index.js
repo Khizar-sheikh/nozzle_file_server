@@ -103,10 +103,6 @@ app.post("/update/:file", async (req, res) => {
     res.status(500).json({ error: err.message });
   }
 });
-// Health check
-app.get('/healthz', (req, res) => {
-  res.status(200).json({ status: 'ok', timestamp: new Date().toISOString() });
-});
 
 // Local dev listener (ignored on Vercel)
 app.listen(3000, () => console.log('Server running on http://localhost:3000'));
