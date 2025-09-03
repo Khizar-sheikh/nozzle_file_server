@@ -2,6 +2,7 @@
   "name": "nozzle_file_server",
   "version": "1.0.0",
   "description": "A simple Express server to serve and update JSON files",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",

@@ -9,50 +9,69 @@ const PORT = process.env.PORT || 4000;
 app.use(cors());
 app.use(express.json());
 
+console.log("🚀 Server booting...");
+
 // ===== MongoDB Setup =====
-const uri = "mongodb+srv://ssskhizarwaseem_db_user:QkJru84wmlLMKomn@cluster0.xbynqsk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"; // put your MongoDB Atlas URI in env
+const uri =
+  "mongodb+srv://ssskhizarwaseem_db_user:QkJru84wmlLMKomn@cluster0.xbynqsk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+
 const client = new MongoClient(uri);
 let db;
 
-async function connectDB() {
+async function getDB() {
   if (!db) {
+    console.log("📡 Connecting to MongoDB...");
     await client.connect();
-    db = client.db("nozzleDB"); // db name
-    console.log("✅ Connected to MongoDB");
+    db = client.db("nozzleDB");
+    console.log("✅ Connected to database: nozzleDB");
   }
+  return db;
 }
-connectDB();
 
 // ===== Routes =====
 
-// Serve JSON files (read from DB instead of /data folder)
+// Root route
+app.get("/", (req, res) => {
+  console.log("📥 GET / hit");
+  res.json({ message: "Hello from Express + MongoDB!" });
+});
+
+// Get file content
 app.get("/json/:file", async (req, res) => {
+  const fileName = req.params.file;
+  console.log(`📥 GET /json/${fileName}`);
+
   try {
-    const fileName = req.params.file;
     if (!fileName.endsWith(".json")) {
       return res.status(400).json({ error: "Only .json files are allowed" });
     }
 
-    const doc = await db.collection("files").findOne({ name: fileName });
+    const database = await getDB();
+    const doc = await database.collection("files").findOne({ name: fileName });
+
     if (!doc) {
       return res.status(404).json({ error: "File not found" });
     }
 
     res.json(doc.content);
   } catch (err) {
+    console.error("🔥 Error:", err);
     res.status(500).json({ error: err.message });
   }
 });
 
-// Update or create a JSON file
+// Update or create file
 app.post("/update/:file", async (req, res) => {
+  const fileName = req.params.file;
+  console.log(`📥 POST /update/${fileName}`);
+
   try {
-    const fileName = req.params.file;
     if (!fileName.endsWith(".json")) {
       return res.status(400).json({ error: "Only .json files are allowed" });
     }
 
-    await db.collection("files").updateOne(
+    const database = await getDB();
+    await database.collection("files").updateOne(
       { name: fileName },
       { $set: { content: req.body } },
       { upsert: true }
@@ -60,21 +79,15 @@ app.post("/update/:file", async (req, res) => {
 
     res.json({ message: `${fileName} updated successfully` });
   } catch (err) {
+    console.error("🔥 Error:", err);
     res.status(500).json({ error: err.message });
   }
 });
 
-// Root route
-app.get("/", (req, res) => {
-  res.json({ message: "Hello from Express + MongoDB on Vercel!" });
+// ===== Start Server (always, local + vercel dev) =====
+app.listen(PORT, () => {
+  console.log(`✅ Server running at http://localhost:${PORT}`);
 });
 
-// ===== Start Server (local only) =====
-if (process.env.NODE_ENV !== "production") {
-  app.listen(PORT, () => {
-    console.log(`✅ Server running at http://localhost:${PORT}`);
-  });
-}
-
-// Export for Vercel
+// ===== Export for Vercel =====
 export default app;
