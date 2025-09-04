@@ -45,12 +45,16 @@ app.get('/', (req, res) => {
 });
 
 // Health route (helps debug Railway)
-app.get('/health', (req, res) => {
-  res.json({
-    status: "ok",
-    db: dbConnected ? "connected" : "disconnected"
-  });
+app.get('/health', async (req, res) => {
+  try {
+    const db = await getDB();
+    await db.command({ ping: 1 }); // Mongo ping
+    res.status(200).json({ status: "ok", db: "connected" });
+  } catch (err) {
+    res.status(500).json({ status: "error", db: "disconnected", error: err.message });
+  }
 });
+
 
 app.get("/json/:file", async (req, res) => {
   const fileName = req.params.file;
