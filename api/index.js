@@ -5,6 +5,8 @@ const { MongoClient } = require("mongodb");
 const app = express();
 
 app.use(express.json());
+const cors = require('cors');
+app.use(cors());
 
 // Home route - HTML
 app.get('/', (req, res) => {
@@ -16,7 +18,11 @@ app.get('/', (req, res) => {
 const uri =
   "mongodb+srv://ssskhizarwaseem_db_user:QkJru84wmlLMKomn@cluster0.xbynqsk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
-const client = new MongoClient(uri);
+const client = new MongoClient(uri, {
+  tls: true,
+  tlsAllowInvalidCertificates: false
+});
+
 let db;
 
 // ---------- Database Helper ----------
