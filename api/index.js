@@ -1,26 +1,24 @@
 // api/index.js
 const express = require('express');
 const { MongoClient } = require("mongodb");
+const cors = require('cors');
 
 const app = express();
-
 app.use(express.json());
-const cors = require('cors');
 app.use(cors());
 
-// Home route - HTML
+// Home route
 app.get('/', (req, res) => {
   res.type('text').send("Hello");
 });
 
-
-
+// ===== MongoDB Atlas Setup =====
 const uri =
-  "mongodb+srv://ssskhizarwaseem_db_user:QkJru84wmlLMKomn@cluster0.xbynqsk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+  "mongodb+srv://ssskhizarwaseem_db_user:QkJru84wmlLMKomn@cluster0.xbynqsk.mongodb.net/?retryWrites=true&w=majority";
 
 const client = new MongoClient(uri, {
-  tls: true,
-  tlsAllowInvalidCertificates: false
+  useNewUrlParser: true,
+  useUnifiedTopology: true
 });
 
 let db;
@@ -36,8 +34,9 @@ async function getDB() {
   return db;
 }
 
+// ---------- Routes ----------
 
-// Get file content
+// Get file content as Base64
 app.get("/json/:file", async (req, res) => {
   const fileName = req.params.file;
   console.log(`📥 GET /json/${fileName}`);
@@ -55,8 +54,8 @@ app.get("/json/:file", async (req, res) => {
       return res.status(404).json({ error: "File not found" });
     }
 
-    const jsonStr = Buffer.from(doc.content, "base64").toString("utf-8");
-    res.json(JSON.parse(jsonStr));
+    // Return Base64 content directly
+    res.json({ base64: doc.content });
   } catch (err) {
     console.error("🔥 Error GET /json:", err.message);
     res.status(500).json({ error: err.message });
