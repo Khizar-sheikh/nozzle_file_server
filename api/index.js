@@ -1,10 +1,10 @@
 // api/index.js
 const express = require('express');
-const path = require('path');
 const { MongoClient } = require("mongodb");
 
 const app = express();
 
+app.use(express.json());
 
 // Home route - HTML
 app.get('/', (req, res) => {
